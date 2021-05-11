@@ -1,0 +1,206 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Calibri";
+}
+
+header {
+  width: 100%;
+  height: 20%; 
+}
+img {
+  width: 200px;
+  padding: 8px;
+ 
+}
+
+ul {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+button.start {
+  background-color: #32a75f;
+  padding: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: #32a75f;
+}
+
+.main {
+  width: 800px;
+  /* height: 50px; */
+  margin: auto;
+  text-align: center;
+}
+.choice1 label {
+ margin:5px;
+  font-family: "Arial Black";
+  font-size: 10px;
+  color: #666;
+  background: #f0f0f0;
+  padding: 5px 10px 8px;
+}
+
+.choice2 label {
+  margin: 5px;
+  font-family: "Arial Black";
+  font-size: 10px;
+  color: #666;
+  background: #f0f0f0;
+  padding: 3px 10px;
+}
+.h1 {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.h4 {
+  text-align: center;
+  
+}
+
+.choice1 {
+  margin: 2%;
+}
+.choice2 {
+  margin: 4%;
+}
+.card {
+  border-radius: 5px 5px 0 0;
+}
+.container{
+  width: 1000px;
+  height: 1000px;
+  background-image: url("../assignment/assets/headphones.jpg");
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.main button {
+  margin-bottom: 30px;
+  padding: 2% 2% 2%;
+  border-style: initial;
+  color: white;
+}
+
+.container-fluid hr {
+  color: black;
+  width: 400px;
+  float: left;
+}
+.container-fluid select {
+  border: none;
+}
+.container-fluid span {
+  display: inline-block;
+}
+
+.panel {
+  width: 1142px;
+  height: 50px;
+ margin: auto;
+  display: flex;
+  align-items: center;
+  background-color:lightgray;
+}
+
+}
+.arrow {
+  float: right;
+  }
+
+hr.vertical {
+  width: 0px;
+  height: 50px;
+}
+p {
+  margin: 0px;
+}
+span {
+  position: center;
+  padding: 0.5% 0.5% 0.5%;
+}
+.formc {
+  display: flex;
+  align-items: center;
+}
+.container-fluid1{
+  width: 1150px;
+  height: 600px;
+  margin: auto;
+  background-color: gray;
+}
+.container-fluid1 h1{
+  padding-top: 100px;
+  margin-left: 20px;
+}
+
+.container-fluid1 p{
+  margin-left: 20px;
+}
+
+img{
+  float: right;
+  width: 500px;
+  padding-top: 0%;
+}
+.card{
+  width: 200px;
+  position: relative;
+  margin-left: 20px;
+  
+}
+.card button{
+  border: none;
+ background-color: white;
+float: right;
+}
+.card1{
+  background-color: white;
+  width: 200px;
+  height: 100px;
+  margin-left: -40px;
+}
+.card1 button{
+border: none;
+background-color: white;
+float: right;
+}
+.container-fluid2{
+  width: 1150px;
+  height: 600px;
+  margin: auto;
+  background-color: gray;
+}
+.container-fluid2 h1{
+  padding-top: 100px;
+  margin-left: 20px;
+}
+
+.container-fluid2 p{
+  margin-left: 20px;
+}
+.container-fluid3{
+  width: 1150px;
+  height: 600px;
+  margin: auto;
+  background-color: grey;
+}
+.container-fluid3 h1{
+  padding-top: 250px;
+}
+.container-fluid3 img{
+  padding-top:200px
+}
+.card button{
+  float: right;
+}
