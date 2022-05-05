@@ -1,0 +1,257 @@
+
+@media screen and (max-width:500px){
+    .container{
+        max-width: 900px;
+        background: white;
+        padding: 300px;
+        height: 800px;
+    }
+    .header{
+        background: rgb(255, 94, 0);
+        color: white;
+        position: absolute;
+        max-width: 330px;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        top: 80px;
+        right:350px ;
+    }
+    .header h2{
+        font-size: -webkit-xxx-large;
+        position:absolute;
+        background: rgb(255, 94, 0);
+        left:10px;
+    }
+    .main{
+        flex-direction: row;
+        position: absolute;
+        right: 10px;
+        font-size: xx-large;
+        top: 160px;
+    }
+    
+    .main h5{
+        font-size: inherit;
+        width: 600px;
+        margin-left: 59%;
+    }
+    .main h1{
+        font-size: revert;
+        margin-left: 58%;
+    }
+    .main p {
+        margin-left: 65%;
+        font-size: smaller;
+    }
+    
+   .section input{
+       position: absolute;
+       left: 298px;
+       width: 420px;
+       top:290px;
+   }
+   .header img{
+        position: absolute;
+        left:0px;
+        top: 0px;
+        height: 800px;
+        width: 475px;
+        display: none;
+    }
+    .footer{
+        flex-direction: row;
+    }
+    span{
+        flex-direction: row;
+        position: absolute;
+        top: 860px;
+        width: 380px;
+        left: 100px;
+    }
+    .btn{
+        justify-content: center;
+    background: rgb(255, 94, 0);
+    width: 420px;
+    padding: 10px;
+    font-size: -webkit-xxx-large;
+    color: white;
+    position: absolute;
+    right: -112px;
+    text-align: center;
+    align-items: center;
+    margin-top:240px;
+  }
+  #countdown{
+    background: white;
+    box-sizing: border-box;
+    height: 70px;
+    width: 120px;
+    font-size: larger;
+    color: rgb(294,94,0);
+    margin-left: 420px;
+    border: 2px solid rgb(255, 94, 0);
+  }
+  .button{
+      background: white;
+    justify-content: center;
+    width: 420px;
+    padding: 10px;
+    font-size: -webkit-xxx-large;
+    color: black;
+    margin: 360px -220px;
+    right: -8px;
+    text-align: center;
+    align-items: center;
+    border: 3px solid black;
+  }
+  .fa-envelope{
+      color:rgb(294,94,0);
+      position: absolute;
+  }
+}
+
+@media screen and (max-width:1100px){
+    .container{
+        max-width: 900px;
+        padding: 300px;
+        height: 800px;
+    }
+    .header h2{
+        background: rgb(255, 94, 0);
+        color: white;
+        max-width: 330px;
+        position: absolute;
+        top: 310px;
+        right: 130px;
+    }
+    
+    .main h5{
+        flex-direction: row;
+        position: absolute;
+        right: -80px;
+        width: 600px;
+        top: 150px
+    }
+    .main h1{
+        position: absolute;
+        right: -180px;
+        width: 600px;
+        top: 190px
+    }
+    .main p{
+        position: absolute;
+        right: -190px;
+        width: 600px;
+        top: 250px
+    }
+    #countdown{
+        position: absolute;
+        right: 295px;
+        width: 600px;
+        top: 285px;
+        color: rgb(294,94,0);
+        border: 2px solid rgb(255, 94, 0);
+        box-sizing: border-box;
+        font-size: xx-large;
+        height: 70px;
+        width: 120px;
+    }
+    
+    .section input{
+        position: absolute;
+        right: 118px;
+        width: 420px;
+        top:380px;
+    }
+
+    .header img{
+        position: absolute;
+    left:-950px !important;
+    top: -80px !important;
+    height: 250px !important;
+    width: 1075px !important;
+    }
+
+    .footer{
+        flex-direction: row;
+    }
+
+    .btn{
+    justify-content: center;
+    background: rgb(255, 94, 0);
+    width: 420px;
+    padding: 10px;
+    font-size: -webkit-xxx-large;
+    color: white;
+    top: 750px;
+    position: absolute;
+    left: 228px;
+  }
+  .button{
+    background: white;
+  justify-content: center;
+  width: 420px;
+  padding: 10px;
+  font-size: -webkit-xxx-large;
+  color: black;
+  margin: 570px -70px;
+  text-align: center;
+  align-items: center;
+  border: 3px solid black;
+}
+span{
+    flex-direction: row;
+    position: absolute;
+    top: 980px;
+    width: 380px;
+    left: 250px;
+}
+  
+}
+@media screen and (max-width:2000px){
+    .container{
+        max-width: 900px;
+        padding: 300px;
+        height: 800px;
+    }
+    .header{
+        background: rgb(255, 94, 0);
+        color: white;
+        position: absolute;
+        max-width: 330px;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        top: 80px;
+        right:150px;
+    }
+    .main{
+        flex-direction: row;
+        position: absolute;
+        right: 10px;
+    }
+    
+    input{
+        border: 0;
+          border-bottom: 1px solid black;
+    }
+
+     img{
+        position: absolute;
+        right:100px;
+        top: 0px;
+        height: 800px;
+        width: 375px;
+    }
+
+    .footer{
+        flex-direction: row;
+    }
+
+    #countdown{
+       
+    
+        
+      }
+}
